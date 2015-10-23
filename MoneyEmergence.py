@@ -524,7 +524,10 @@ if __name__ == "__main__":
     #        Global variables        #
     ##################################
 
-    # Set the fundamental structure of the economy.
+    # Set the fundamental structure of the economy. 
+    #  Here is an example of fundamental structure inducing the good '2' to emerge as a money (others things being equal).
+    #  For instance, a fundamental structure such as [100, 0, 100, 0, 100, 0] will produce a negative result,
+    #  since no money will emerge.
     eco_workforce = [100, 0, 100, 0, 300, 0]
     # Set the coefficient learning.
     eco_alpha = 0.5
