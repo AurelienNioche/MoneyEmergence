@@ -525,7 +525,8 @@ if __name__ == "__main__":
     ##################################
 
     # Set the fundamental structure of the economy. 
-    #  Here is an example of fundamental structure inducing the good '2' to emerge as a money (others things being equal).
+    #  Here is an example of fundamental structure inducing the emergence of the good '2' as money 
+    #  (others things being equal).
     #  For instance, a fundamental structure such as [100, 0, 100, 0, 100, 0] will produce a negative result,
     #  since no money will emerge.
     eco_workforce = [100, 0, 100, 0, 300, 0]
@@ -535,7 +536,7 @@ if __name__ == "__main__":
     eco_temperature = 0.05
     # Set the number of time units the simulation will run.
     eco_time_limit = 10000
-    # Set the number of time units to use for check if the economy is in a monetary state.
+    # Set the number of time units used to check if the economy is in a monetary state.
     analysis_observation_required = 100
     # Set the tolerance threshold concerning the proportion of agents of a same type
     #   "authorized" to deviate from what would predict a pure Nash equilibrium
