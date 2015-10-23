@@ -525,7 +525,7 @@ if __name__ == "__main__":
     ##################################
 
     # Set the fundamental structure of the economy.
-    eco_workforce = [150, 150, 150, 150, 250, 250]
+    eco_workforce = [100, 0, 100, 0, 300, 0]
     # Set the coefficient learning.
     eco_alpha = 0.5
     # Set the softmax parameter.
